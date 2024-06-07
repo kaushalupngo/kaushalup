@@ -1,0 +1,1073 @@
+html, body {
+  scroll-behavior: smooth;
+}
+
+.text-small {
+  font-size: 85%;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+header {
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.style_font_sub {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+}
+.style_font_head {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 28px;
+}
+.button_class_main {
+  background-color: #FF9736;
+  border: transparent solid 2px;
+  padding: 5px 10px;
+  color: black;
+  transition: 0.3s ease-in;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+.button_class_main:hover {
+  background-color: #FFBF80;
+  border: black solid 2px;
+  color: black;
+  transition: 0.3s ease-out;
+  cursor: pointer;
+}
+.nav_link1 {
+  display: block;
+}
+.nav_link1:hover {
+  display: block;
+}
+.nav_link {
+  color:#FFBF80;
+  display: block;
+}
+.nav_link:hover {
+  color: #FF9736;
+  display: block;
+}
+
+.video-section {
+  min-height: 90vh;
+  display: grid;
+  place-items: center;
+  color: black;
+  text-align: center;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.video-section h1{
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-size: 520%;
+  line-height: 1;
+}
+.video-section h2{
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+.myVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 90vh;
+  overflow: hidden;
+  object-fit: cover;
+  width: 100%;
+  opacity: 0.6;
+}
+.video-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: -7%;
+}
+
+.why_kaushal {
+  margin: 50px 0;
+}
+.why_kaushal h1 {
+  text-align: center;
+  margin: 40px;
+  font-size: 50px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.why_kaushal .flex_container {
+  display: flex;
+}
+.why_kaushal .left {
+  max-width: 60%;
+}
+.why_kaushal .right h1{
+  font-size: 80px;
+  margin: 2%;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #FF9736;
+}
+.why_kaushal .right p{
+  margin: 0 15%;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+.why_kaushal p {
+  text-align: justify;
+  font-size: 20px;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.about_us {
+  margin: 50px 0;
+}
+.about_us h1 {
+  text-align: center;
+  margin: 40px;
+  font-size: 50px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.about_us .flex_container {
+  display: flex;
+}
+.about_us .left {
+  max-width: 60%;
+}
+.about_us p {
+  text-align: justify;
+  font-size: 20px;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+.about_us .right {
+  margin: auto;
+}
+.about_us .aboutusvideo {
+  height: 350px;
+  overflow: hidden;
+  object-fit: cover;
+  width: 290px;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.how_we_help { 
+  margin: 0 auto;
+  text-align: center;
+}
+.how_we_help h1 {
+  text-align: center;
+  margin: 40px;
+  font-size: 50px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.how_we_help p {
+  font-size: 20px;
+  margin: 20px 10%;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+.how_we_help .flex_container {
+  margin: 50px 30px;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+.how_we_help .box {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width:220px;
+  height:220px;
+  position: relative;
+}
+.how_we_help .subbox {
+  width:220px;
+  height:220px;
+  position: absolute;
+  background: rgb(255, 191, 128);
+  background: rgba(255, 191, 128, 0.5);
+  line-height: 220px;
+}
+.how_we_help span {
+  font-size: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 15px;
+}
+.how_we_help .box1 {
+  background-image: url(assets/90.jpeg);
+}
+.how_we_help .box2 {
+  background-image: url(assets/LearntoRead9003.jpg);
+}
+.how_we_help .box3 {
+  background-image: url(assets/Moser-Consulting_Practical-Creativity_654x300.jpg);
+}
+.how_we_help .box4 {
+  background-image: url(assets/manpic.jpg);
+}
+
+.skills { 
+  margin: 0 auto;
+  text-align: center;
+}
+.skills h1 {
+  text-align: center;
+  margin: 40px;
+  font-size: 50px;
+  margin-top: 80px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.skills p {
+  font-size: 20px;
+  margin: 20px 10% 50px 10%;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+.skills .flex_container {
+  margin: 40px 30px;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+.skills .box {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width:220px;
+  height:220px;
+  position: relative;
+}
+.skills .subbox {
+  width:220px;
+  height:220px;
+  position: absolute;
+  background: rgb(255, 191, 128);
+  background: rgba(255, 191, 128, 0.5);
+  line-height: 220px;
+}
+.skills span {
+  font-size: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  padding: 15px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.skills .box1 {
+  background-image: url(assets/90.jpeg);
+}
+.skills .box2 {
+  background-image: url(assets/iStock-507473994.jpg);
+}
+.skills .box3 {
+  background-image: url(assets/360_F_512613046_OSy9pEiXLAfBjebvpnty3XXfO5yeyFBu.jpg);
+}
+.skills .box4 {
+  background-image: url(assets/finance.jpeg.jpg.webp);
+}
+.skills .box5 {
+  background-image: url(assets/kids-learning-music.jpg);
+}
+.skills .box6 {
+  background-image: url(assets/Youth-soccer-indiana.jpg);
+}
+.skills .box7 {
+  background-image: url(assets/1-1.jpg);
+}
+.skills .box8 {
+  background-image: url(assets/indiandance-pearl07.jpg.webp);
+}
+.skills .box9 {
+  background-image: url(assets/Job-interview-tips-1.jpg);
+}
+.skills .box10 {
+  background-image: url(assets/startup.jpg);
+}
+.skills .box11 {
+  background-image: url(assets/team-communication.jpg);
+}
+
+.join { 
+  margin: 0 auto;
+  text-align: center;
+}
+.join h1 {
+  text-align: center;
+  margin: 40px;
+  font-size: 50px;
+  margin-top: 80px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.join p {
+  font-size: 20px;
+  margin: 20px 10%;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+.join .flex_container {
+  margin: 60px 30px;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+.join .box {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width:310px;
+  height:310px;
+  position: relative;
+}
+.join .subbox {
+  width:310px;
+  height:310px;
+  position: absolute;
+  line-height: 310px;
+  background: rgb(255, 191, 128);
+  background: rgba(255, 191, 128, 0.5);
+}
+.join span {
+  font-size: 45px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  padding: 25px;
+  color: black;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.join .box1 {
+  background-image: url(assets/istockphoto-175730782-612x612.jpg);
+}
+.join .box2 {
+  background-image: url(assets/Screenshot\ 2024-06-04\ at\ 3.06.43\ PM.png);
+}
+
+.contact_us { 
+  margin: 0 auto;
+}
+.contact_us h1 {
+  text-align: center;
+  margin: 40px;
+  font-size: 50px;
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.contact_us .flex_container {
+  margin: 50px 30px;
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+.apply_box {
+  max-width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+}
+.title_small {
+  font-size: 15px;
+}
+.form_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+  gap: 20px;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+.form_control {
+  display: flex;
+  flex-direction: column;
+}
+.textarea_control {
+  grid-column: 1/span 2;
+}
+.textarea_control textarea {
+  width: 100%;
+}
+label {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+input, select, textarea {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+input:focus {
+  outline-color: black;
+}
+.button_container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+.button_class {
+  background-color: #FF9736;
+  border: transparent solid 2px;
+  padding: 8px 35px;
+  font-size: 15px;
+  color: black;
+  transition: 0.3s ease-in;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+.button_class:hover {
+  background-color: #FFBF80;
+  border: black solid 2px;
+  color: black;
+  transition: 0.3s ease-out;
+  cursor: pointer;
+}
+.info {
+  margin: 10px 20px;
+}
+.contactinfo {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  margin: 25px 0 ;
+}
+.icon_photo {
+  height: 40px;
+  margin: 50px 10px 0 0;
+}
+.contact_us .flex_icons {
+  display: flex;
+  gap: 10px;
+}
+footer {
+  background-color: #FFBF80;
+  color: black;
+  text-align: center;
+  height: 70px;
+}
+footer p {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:786px) {  
+  .container {
+    max-width: 330px;
+    margin: 0 auto;
+  }
+  header {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .style_font_sub {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+  }
+  .style_font_head {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 28px;
+  }
+  .button_class_main {
+    background-color: #FF9736;
+    border: transparent solid 2px;
+    padding: 5px 10px;
+    color: black;
+    transition: 0.3s ease-in;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+  .button_class_main:hover {
+    background-color: #FFBF80;
+    border: black solid 2px;
+    color: black;
+    transition: 0.3s ease-out;
+    cursor: pointer;
+  }
+  .nav_link1 {
+    display: none;
+  }
+  .nav_link1:hover {
+    display: none;
+  }
+  .nav_link {
+    color:#FFBF80;
+    display: none;
+  }
+  .nav_link:hover {
+    color: #FF9736;
+    display: none;
+  }
+  
+  .video-section {
+    min-height: 90vh;
+    display: grid;
+    place-items: center;
+    color: black;
+    text-align: center;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .video-section h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    font-size: 330%;
+    line-height: 1.1;
+  }
+  .video-section h2{
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 1.5;
+  }
+  .myVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 90vh;
+    overflow: hidden;
+    object-fit: cover;
+    width: 100%;
+    opacity: 0.6;
+  }
+  .video-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: -7%;
+  }
+  
+  .why_kaushal {
+    margin: 30px 0;
+  }
+  .why_kaushal h1 {
+    text-align: center;
+    margin: 30px;
+    margin-top: 40px;
+    font-size: 40px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .why_kaushal .flex_container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .why_kaushal .left {
+    max-width: 100%;
+    margin-top: 30px;
+  }
+  .why_kaushal .right h1{
+    font-size: 70px;
+    margin: 2%;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FF9736;
+  }
+  .why_kaushal .right p{
+    margin: 0 5%;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+  .why_kaushal p {
+    text-align: justify;
+    font-size: 18px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .about_us {
+    margin: 30px 0;
+  }
+  .about_us h1 {
+    text-align: center;
+    margin: 30px;
+    font-size: 40px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .about_us .flex_container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .about_us .left {
+    max-width: 100%;
+  }
+  .about_us p {
+    text-align: justify;
+    font-size: 18px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+  .about_us .right {
+    margin: auto;
+  }
+  .about_us .aboutusvideo {
+    height: 290px;
+    overflow: hidden;
+    object-fit: cover;
+    width: 290px;
+    border-radius: 50%;
+    pointer-events: none;
+    margin-bottom: 30px;
+  }
+  
+  .how_we_help { 
+    margin: 0 auto;
+    text-align: center;
+  }
+  .how_we_help h1 {
+    text-align: center;
+    margin: 25px;
+    font-size: 40px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .how_we_help p {
+    font-size: 18px;
+    margin: 0;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+  .how_we_help .flex_container {
+    margin: 40px 30px 0 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+  }
+  .how_we_help .box {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:240px;
+    height:240px;
+    position: relative;
+  }
+  .how_we_help .subbox {
+    width:240px;
+    height:240px;
+    position: absolute;
+    background: rgb(255, 191, 128);
+    background: rgba(255, 191, 128, 0.5);
+    line-height: 240px;
+  }
+  .how_we_help span {
+    font-size: 36px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 15px;
+  }
+  .how_we_help .box1 {
+    background-image: url(assets/90.jpeg);
+  }
+  .how_we_help .box2 {
+    background-image: url(assets/LearntoRead9003.jpg);
+  }
+  .how_we_help .box3 {
+    background-image: url(assets/Moser-Consulting_Practical-Creativity_654x300.jpg);
+  }
+  .how_we_help .box4 {
+    background-image: url(assets/manpic.jpg);
+  }
+  
+  .skills { 
+    margin: 0 auto;
+    text-align: center;
+  }
+  .skills h1 {
+    text-align: center;
+    margin: 25px;
+    font-size: 40px;
+    margin-top: 50px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .skills p {
+    font-size: 18px;
+    margin: 0;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom: 40px;
+  }
+  .skills .flex_container {
+    margin: 25px 30px 0 30px;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .skills .box {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:240px;
+    height:240px;
+    position: relative;
+  }
+  .skills .subbox {
+    width:240px;
+    height:240px;
+    position: absolute;
+    background: rgb(255, 191, 128);
+    background: rgba(255, 191, 128, 0.5);
+    line-height: 240px;
+  }
+  .skills span {
+    font-size: 36px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    padding: 15px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .skills .box1 {
+    background-image: url(assets/90.jpeg);
+  }
+  .skills .box2 {
+    background-image: url(assets/iStock-507473994.jpg);
+  }
+  .skills .box3 {
+    background-image: url(assets/360_F_512613046_OSy9pEiXLAfBjebvpnty3XXfO5yeyFBu.jpg);
+  }
+  .skills .box4 {
+    background-image: url(assets/finance.jpeg.jpg.webp);
+  }
+  .skills .box5 {
+    background-image: url(assets/kids-learning-music.jpg);
+  }
+  .skills .box6 {
+    background-image: url(assets/Youth-soccer-indiana.jpg);
+  }
+  .skills .box7 {
+    background-image: url(assets/1-1.jpg);
+  }
+  .skills .box8 {
+    background-image: url(assets/indiandance-pearl07.jpg.webp);
+  }
+  .skills .box9 {
+    background-image: url(assets/Job-interview-tips-1.jpg);
+  }
+  .skills .box10 {
+    background-image: url(assets/startup.jpg);
+  }
+  .skills .box11 {
+    background-image: url(assets/team-communication.jpg);
+  }
+  
+  .join { 
+    margin: 0 auto;
+    text-align: center;
+  }
+  .join h1 {
+    text-align: center;
+    margin: 20px;
+    font-size: 40px;
+    margin-top: 50px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .join p {
+    font-size: 18px;
+    margin: 0;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+  .join .flex_container {
+    margin: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+  }
+  .join .box {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:240px;
+    height:240px;
+    position: relative;
+  }
+  .join .subbox {
+    width:240px;
+    height:240px;
+    position: absolute;
+    line-height: 240px;
+    background: rgb(255, 191, 128);
+    background: rgba(255, 191, 128, 0.5);
+  }
+  .join span {
+    font-size: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    padding: 20px;
+    color: black;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .join .box1 {
+    background-image: url(assets/istockphoto-175730782-612x612.jpg);
+  }
+  .join .box2 {
+    background-image: url(assets/Screenshot\ 2024-06-04\ at\ 3.06.43\ PM.png);
+  }
+  
+  .contact_us { 
+    margin: 0 auto;
+  }
+  .contact_us h1 {
+    text-align: center;
+    margin: 40px 0 30px 0;
+    margin-top: 50px;
+    font-size: 40px;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .contact_us .flex_container {
+    margin: 0;
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+  }
+  
+  .apply_box {
+    max-width: 330px;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+  .title_small {
+    font-size: 15px;
+  }
+  .form_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(110px, 1fr));
+    gap: 20px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+  .form_control {
+    display: flex;
+    flex-direction: column;
+  }
+  .textarea_control {
+    grid-column: 1/span 2;
+  }
+  .textarea_control textarea {
+    width: 100%;
+  }
+  label {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  input, select, textarea {
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+  input:focus {
+    outline-color: black;
+  }
+  .button_container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  .button_class {
+    background-color: #FF9736;
+    border: transparent solid 2px;
+    padding: 8px 35px;
+    font-size: 15px;
+    color: black;
+    transition: 0.3s ease-in;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+  .button_class:hover {
+    background-color: #FFBF80;
+    border: black solid 2px;
+    color: black;
+    transition: 0.3s ease-out;
+    cursor: pointer;
+  }
+  .info {
+    margin: 10px 0px;
+  }
+  .contactinfo {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    margin: 25px 0;
+  }
+  .icon_photo {
+    height: 40px;
+    margin: 30px 10px 10px 0;
+  }
+  .contact_us .flex_icons {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+  }
+  footer {
+    background-color: #FFBF80;
+    color: black;
+    text-align: center;
+    height: 70px;
+  }
+  footer p {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+}
